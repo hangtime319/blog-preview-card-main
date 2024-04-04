@@ -15,10 +15,7 @@ body {
     font-family: "Figtree", Helvetica, sans-serif;
     font-size: 16px;
     background-color: var(--yellow);
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center;
-    flex-direction: column; */
+    
 }
 
 img {
@@ -30,14 +27,21 @@ a {
     text-decoration: none;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .container {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     flex-direction: column;
     max-width: 250px;
     background-color: var(--white);
     padding: 15px;
+    border: 1px solid var(--black);
     border-radius: 12px;
     box-shadow: 7px 7px 0px -1px rgba(0,0,0,1);
 }
@@ -47,18 +51,57 @@ a {
 }
 
 .status {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     margin: 15px 0;
 }
 
 .status h3 {
     font-size: 0.875rem;
     font-weight: 800;
-    margin-bottom: 15px;
-    padding: 3px;
+    margin-bottom: 12px;
+    padding: 5px 8px;
+    border-radius: 3px;
     background-color: var(--yellow);
 }
 
+.status p {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
 
+#enterprise {
+    font-weight: 900;
+    color: var(--black);
+}
+
+#enterprise:hover {
+    color: var(--yellow);
+}
+
+#description {
+    font-size: 0.675rem;
+    line-height: 1.5;
+    font-weight: 400;    
+    color: var(--grey);
+    margin: 12px 0;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    width: 10%;
+    margin-right: 8px;
+}
+
+.avatar span {
+    font-size: 0.6rem;
+    font-weight: 900;
+}
 
 
 .attribution {

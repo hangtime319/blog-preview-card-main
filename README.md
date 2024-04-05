@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Blog preview card
 
 ![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
@@ -91,3 +92,9 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+Esta página foi desenvolvida somente para prática de HTML e CSS. É um desafio da página Frontend Mentor e a solução também pode encontrar por lá.
+As habilidades desenvolvidas foram CSS Flexbox e HTML Semântico.
+Minha única dificuldade foi centralizar o cartão paa o meio da página, mas encontrei a solução e um outro template que já tinha desenvolvido.
+Críticas ou seguestões podem ser feitas através do meu perfil no frontendmentos(hangtime319).
+>>>>>>> 340759fbb4b0172334154113024c440660c2a668
